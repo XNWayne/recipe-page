@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 2rem .9rem;
+  color: #333333;
+}
+
+h1,
+h2,
+h4{
+  font-family: 'Playfair Display', serif;
+  color: #000000;
+}
+
+h2 {
+  color: #333333;
+}
+
+.h-info {
+display: flex;
+align-items: flex-start;
+gap: .7rem;
+margin: .8rem 0;
+}
+
+.h-info img {
+  padding-top: .275rem;
+}
+
+.h-info p {
+font-weight: 500;
+font-style: italic;
+color: #4F4F4F;
+}
+
+.cheese {
+  width: 100%;
+object-fit: cover;
+}
+
+.cook-time .tt {
+text-transform: uppercase;
+color: #BDBDBD;
+font-size: .8rem;
+}
+
+.cook-time .td {
+color: #333333;
+font-size: .9rem;
+}
+
+.cook-time .yields {
+  margin-top: 1.5rem;
+}
+
+.cook-time .yellow {
+  color: #F2994A;
+}
+
+.cook-time .time {
+display: flex;
+align-items: center;
+gap: .5rem;
+}
+
+.cook-time .time img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cook-time .timming {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 2rem;
+margin: 1.5rem 0 2rem 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.ingredients h4 {
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+margin: .8rem 0 1.5rem 0;
+
+}
+
+.ingredients .ing {
+display: flex;
+align-items: flex-start;
+gap: .5rem;
+}
+
+.instructions h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.instructions .inst{
+  display: flex;
+  align-items: flex-start;
+gap: .9rem;
+margin-top: 1rem;
+}
+
+.instructions .inst .number{
+  font-family: 'Playfair Display', serif;
+font-size: 1.5rem;
+font-weight: 700;
+background-color: #F2994A;
+width: 1.5rem;
+height: 1.5rem;
+color: white;
+text-align: center;
+padding: 1.5rem 1.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+}
+
+
+.footer p {
+color: #BDBDBD;
+font-style: italic;
+font-weight: 400;
+margin: 2rem 0;
+}
+
+.footer p a {
+  color: inherit;
+}
+
+@media only screen and (min-width: 680px){
+  body {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  body {
+    padding: 2rem 10rem;
+  }
+
+.container {
+display: flex;
+flex-direction: row-reverse;
+gap: 5rem;
+margin-top: 3rem;
+}
+
+.cook-time .timming {
+  display: block;
+  width: 10rem;
+  margin-top: 0;
+}
+
+.cook-time .time {
+  margin-bottom: 2.6rem;
+}
+
+.cook-time {
+height: fit-content;
+width: fit-content;
+background-color: white;
+border-radius: 10px;
+/* padding: 2rem 2rem; */
+box-shadow: 4px 2px 17px 1px rgba(0,0,0,0.5);
+-webkit-box-shadow: 4px 2px 17px 1px rgba(0,0,0,0.5);
+-moz-box-shadow: 4px 2px 17px 1px rgba(0,0,0,0.5);
+padding: 2rem;
+}
+}

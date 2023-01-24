@@ -1,0 +1,38 @@
+
+
+------------------------------------------------------------
+Application started
+13:12:39.506: (I)  2544: ice.systeminfo      : OS version: "Windows 8.1 (6.3)"
+13:12:39.506: (I)  2544: ice.systeminfo      : Kernel version: "6.3.9600"
+13:12:39.506: (I)  2544: ice.systeminfo      : CPU architecture: "x86_64"
+13:12:39.506: (I)  2544: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+13:12:39.506: (I)  2544: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+13:12:39.506: (I)  2544: ice.systeminfo      : BuildVersion: "2.1.6"
+13:12:39.506: (I)  2544: ice.systeminfo      : DisplayVersion: "2.16"
+13:12:39.507: (I)  2544: ice.systeminfo      : PID: 2820
+13:12:39.507: (I)  2544: ice.systeminfo      : Main thread id: 2544
+13:12:39.507: (I)  2544: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+13:12:39.507: (I)  2544: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+13:12:39.507: (I)  2544: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+13:12:39.507: (I)  2544: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+13:12:39.507: (I)  2544: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 100.968, log/phy: 95%, geometry: {x:0, y:0, w: 1366, h: 768}, available: {x:0, y:0, w: 1366, h: 728}
+13:12:39.507: (I)  2544: ice.systeminfo      : 
+13:12:39.512: (I)  2544: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+13:12:39.515: (I)  2544: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+13:12:39.518: (I)  2544: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+13:12:39.519: (I)  2544: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1366x768)
+13:12:44.889: (I)  2544: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+13:12:44.890: (I)  2544: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+13:12:44.891: (I)  2544: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists, connect to iceUi->mainWindowCreated()
+13:12:45.804: (I)  2544: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 915 msec
+13:12:45.804: (I)  2544: app.app             : Application::init                       : Entering 'Init app'
+13:12:46.015: (I)  2544:                     : mfhelper::CreateDeviceAndContext()      :   "The specified device interface or feature level is not supported on this system."
+13:12:46.051: (I)  2544:                     : mfhelper::CreateDeviceAndContext()      :   "The specified device interface or feature level is not supported on this system."
+13:12:46.075: (I)  2544:                     : mfhelper::CreateDeviceAndContext()      :   "The specified device interface or feature level is not supported on this system."
+13:12:46.075: (W)  2544:                     : Application::init()                     :   Hardware based DirectX 11 is not supported on this PC.
+13:12:46.079: (I)  2544: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+13:12:46.086: (I)  2544: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+13:12:46.086: (I)  2544: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+13:12:47.832: (I)  2544: app.app             : Application::init                       : Leaving 'Init app'. Elapsed time: 2027
+13:12:47.833: (I)  2544:                     : Application::~Application()             : App finished normally
+13:12:47.833: (I)  2544: ice.application     : IceApplication::~IceApplication()       : App is finished normally.

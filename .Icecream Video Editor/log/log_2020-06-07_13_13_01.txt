@@ -1,0 +1,35 @@
+
+
+------------------------------------------------------------
+Application started
+13:13:01.012: (I)  5792: ice.systeminfo      : OS version: "Windows 8.1 (6.3)"
+13:13:01.012: (I)  5792: ice.systeminfo      : Kernel version: "6.3.9600"
+13:13:01.012: (I)  5792: ice.systeminfo      : CPU architecture: "x86_64"
+13:13:01.012: (I)  5792: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+13:13:01.012: (I)  5792: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+13:13:01.012: (I)  5792: ice.systeminfo      : BuildVersion: "2.1.6"
+13:13:01.013: (I)  5792: ice.systeminfo      : DisplayVersion: "2.16"
+13:13:01.013: (I)  5792: ice.systeminfo      : PID: 2064
+13:13:01.013: (I)  5792: ice.systeminfo      : Main thread id: 5792
+13:13:01.013: (I)  5792: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+13:13:01.013: (I)  5792: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+13:13:01.013: (I)  5792: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+13:13:01.013: (I)  5792: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+13:13:01.013: (I)  5792: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 100.968, log/phy: 95%, geometry: {x:0, y:0, w: 1366, h: 768}, available: {x:0, y:0, w: 1366, h: 728}
+13:13:01.013: (I)  5792: ice.systeminfo      : 
+13:13:01.017: (I)  5792: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream Video Editor/translations" , file prefix: "icevideoeditor" system locale: "en_US"
+13:13:01.020: (I)  5792: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+13:13:01.022: (I)  5792: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+13:13:01.022: (I)  5792: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1366x768)
+13:13:01.768: (I)  5792: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+13:13:02.543: (I)  5792: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 775 msec
+13:13:02.543: (I)  5792: app.app             : Application::init                       : Entering 'Init app'
+13:13:02.563: (I)  5792:                     : mfhelper::CreateDeviceAndContext()      :   "The specified device interface or feature level is not supported on this system."
+13:13:02.566: (I)  5792:                     : mfhelper::CreateDeviceAndContext()      :   "The specified device interface or feature level is not supported on this system."
+13:13:02.567: (I)  5792:                     : mfhelper::CreateDeviceAndContext()      :   "The specified device interface or feature level is not supported on this system."
+13:13:02.567: (W)  5792:                     : Application::init()                     :   Hardware based DirectX 11 is not supported on this PC.
+13:13:02.571: (I)  5792: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM is available: true
+13:13:02.596: (I)  5792: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM enable BlurBehind: false
+13:13:02.596: (I)  5792: ice.shadowrenderer  : IceWindow::Private::applyShadowRenderer(:   DWM extend frame into client area: QMargins(1, 0, 1, 1)
+13:13:03.201: (I)  5792: ice.splash          : IceSplash::Private::onMinDurationReached:   Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+13:13:03.201: (I)  5792: ice.splash          : IceSplash::Private::onMinDurationReached:   Main window still not exists, connect to iceUi->mainWindowCreated()

@@ -1,0 +1,21 @@
+
+
+------------------------------------------------------------
+Application started
+13:07:07.687: (I)  5828: ice.systeminfo      : OS version: "Windows 8.1 (6.3)"
+13:07:07.687: (I)  5828: ice.systeminfo      : Kernel version: "6.3.9600"
+13:07:07.687: (I)  5828: ice.systeminfo      : CPU architecture: "x86_64"
+13:07:07.687: (I)  5828: ice.systeminfo      : Build ABI: "x86_64-little_endian-llp64"
+13:07:07.687: (I)  5828: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream Video Editor/icevideoeditor.exe"
+13:07:07.688: (I)  5828: ice.systeminfo      : BuildVersion: "2.1.6"
+13:07:07.688: (I)  5828: ice.systeminfo      : DisplayVersion: "2.16"
+13:07:07.688: (I)  5828: ice.systeminfo      : PID: 5908
+13:07:07.688: (I)  5828: ice.systeminfo      : Main thread id: 5828
+13:07:07.688: (I)  5828: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: false
+13:07:07.688: (I)  5828: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+13:07:07.689: (I)  5828: ice.systeminfo      : Overrided QT_AUTO_SCREEN_SCALE_FACTOR found: "0"
+13:07:07.689: (I)  5828: ice.systeminfo      : Overrided QT_SCALE_FACTOR found: "1"
+13:07:07.689: (I)  5828: ice.systeminfo      : Qt Screen 0: primary, winScale: 100%, pixelRatio: 1, logDpi: 96, phyDpi: 100.968, log/phy: 95%, geometry: {x:0, y:0, w: 1366, h: 768}, available: {x:0, y:0, w: 1366, h: 728}
+13:07:07.689: (I)  5828: ice.systeminfo      : 
+13:07:07.691: (I)  5828:                     : Application::~Application()             : App finished normally
+13:07:07.691: (I)  5828: ice.application     : IceApplication::~IceApplication()       : App is finished normally.
